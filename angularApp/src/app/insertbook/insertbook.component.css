@@ -1,0 +1,19 @@
+.content{
+  width:24.25%;
+  /*background-color: red;*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 20px 0 0 37.5%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.form{
+  padding: 10px;
+}
+input{
+  margin: 1px 0 10px 0px;
+}
+.homeButton{
+  width:60px;
+  cursor: pointer;
+}

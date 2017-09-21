@@ -1,0 +1,20 @@
+.off{
+  display: none;
+}
+.inputOff{
+  display:none;
+}
+.content{
+  width:24.25%;
+  /*background-color: red;*/
+
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 20px 0 0 37.5%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.homeButton{
+  width:60px;
+  cursor: pointer;
+}

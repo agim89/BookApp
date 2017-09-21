@@ -1,0 +1,15 @@
+<div class="content">
+<form [formGroup]='book' (ngSubmit)="InsertBook(book.value)" class="form">
+  <h3>Input new book</h3>
+  <label>Book title</label><br/>
+  <input type="text" formControlName="title" /><br/>
+  <label>Book author</label><br/>
+  <input type="text" formControlName="author"/><br/>
+  <label>Year</label><br/>
+  <input type="number" formControlName="year"/><br/><br/>
+
+  <input type="submit" class="homeButton"/>
+
+</form>
+  <button (click)="Home()" class="homeButton"> Back </button>
+</div>
